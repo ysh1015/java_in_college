@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024Chap01/2024Chap01.iml" filepath="$PROJECT_DIR$/2024Chap01/2024Chap01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024Chap02/2024Chap02.iml" filepath="$PROJECT_DIR$/2024Chap02/2024Chap02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024Chap03/2024Chap03.iml" filepath="$PROJECT_DIR$/2024Chap03/2024Chap03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024Chap05/2024Chap05.iml" filepath="$PROJECT_DIR$/2024Chap05/2024Chap05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024Chap06/2024Chap06.iml" filepath="$PROJECT_DIR$/2024Chap06/2024Chap06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024Chap07/2024Chap07.iml" filepath="$PROJECT_DIR$/2024Chap07/2024Chap07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2024_second_semester/2024_second_semester.iml" filepath="$PROJECT_DIR$/2024_second_semester/2024_second_semester.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ysh_java_1st.iml" filepath="$PROJECT_DIR$/.idea/ysh_java_1st.iml" />
+    </modules>
+  </component>
+</project>

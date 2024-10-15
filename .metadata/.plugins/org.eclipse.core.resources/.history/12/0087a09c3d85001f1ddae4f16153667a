@@ -1,0 +1,33 @@
+
+public class Polymorphism {
+	// 전역 메서드로 paint라는 기능을 만듦, 매개변수로 Shape 객체를 받음
+	static void paint(Shape p) {
+		// Shape 형태의 draw 메서드 호출
+		p.draw();
+	}
+	
+	public static void main(String[] args) {
+		paint(new Line());
+	}
+}
+
+class Shape{
+	public void draw() {
+		System.out.println("shape");
+	}
+}
+class Line extends Shape{
+	public void draw() {
+		System.out.println("Line");
+	}
+}
+class Circle extends Shape{
+	public void draw() {
+		System.out.println("Circle");
+	}
+}
+class Rectangle extends Shape{
+	public void draw() {
+		System.out.println("Rectangle");
+	}
+}

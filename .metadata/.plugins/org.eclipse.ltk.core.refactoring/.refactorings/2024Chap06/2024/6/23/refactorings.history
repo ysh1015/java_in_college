@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Carculator.java&apos; to &apos;Caculator.java&apos;&#x0D;&#x0A;- Original project: &apos;2024Chap06&apos;&#x0D;&#x0A;- Original element: &apos;Carculator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Caculator.java&apos;" description="Rename compilation unit &apos;Carculator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Carculator.java" name="Caculator.java" references="false" stamp="1717478228616" version="1.0"/>
+</session>

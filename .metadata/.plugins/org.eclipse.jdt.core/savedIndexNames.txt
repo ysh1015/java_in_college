@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+C:\ysh_java_1st\.metadata\.plugins\org.eclipse.jdt.core
+3200317233.index
+547644050.index
+3115135784.index
+667526795.index
+2780768565.index
+1964324825.index
+1330099963.index
+1865797976.index
+1470321156.index

@@ -1,0 +1,13 @@
+
+public class Polymorphism {
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class Shape{
+	public void draw() {
+		System.out.println("shape");
+	}
+}

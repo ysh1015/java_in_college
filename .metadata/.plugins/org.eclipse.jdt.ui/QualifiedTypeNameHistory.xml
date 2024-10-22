@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
     <fullyQualifiedTypeName name="AnimalImplement.Cat"/>
+    <fullyQualifiedTypeName name="A.B"/>
 </qualifiedTypeNameHistroy>

@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
     <fullyQualifiedTypeName name="AnimalImplement.Cat"/>
     <fullyQualifiedTypeName name="A.B"/>
+    <fullyQualifiedTypeName name="Car"/>
 </qualifiedTypeNameHistroy>

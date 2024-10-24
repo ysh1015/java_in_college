@@ -2,9 +2,13 @@
 // 중첩 클래스 활용 예시
 
 public class A {
+	
+	// A클래스의 생성자 생성
 	A(){
 		System.out.println("A 클래스 생성자 실행");
 	}
+	
+	// A 클래스 안에 B 클래스 생성 
 	static class B{
 		B(){
 			System.out.println("B 생성자 실행");
@@ -16,6 +20,8 @@ public class A {
 			System.out.println("B - m2 실행");
 		}
 	}
+	
+	// A클래스 안에 C 클래스 생성 
 	class C{
 		C(){
 			System.out.println("C 생성자 실행");

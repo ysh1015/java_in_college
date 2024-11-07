@@ -2,15 +2,22 @@ import java.io.IOException;
 
 public class ExceptionDemo {
 
+	// 2. throws로 떠넘기기
+	public static void method() throws IOException{
+		byte[] bt = {'H','A','N'};
+		System.out.write(bt);
+		System.out.println();
+	}
+	
+	// os에서 main 메서드부터 찾는다
 	public static void main(String[] args) {
 		
-//		byte[] bt = {'H','A','N'};
-//		try {
-//			System.out.write(bt);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		// 1. 예외 처리하기 
+		try {
+			method();
+		} catch (IOException e) {
+			System.out.println("예외 발생했어요^^");
+		}
 		
 		int x = 1/2;
 		int[] a = {1,2,3,4,5};

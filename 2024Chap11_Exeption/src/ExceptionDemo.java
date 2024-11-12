@@ -4,6 +4,9 @@ public class ExceptionDemo {
 
 	// 2. throws로 떠넘기기
 	public static void method() throws IOException{
+		System.out.println("숫자를 입력하세요\n0을 입력하면 강제종료됩니다");
+		if(System.in.read() == 48)
+			System.exit(0);
 		byte[] bt = {'H','A','N'};
 		System.out.write(bt);
 		System.out.println();

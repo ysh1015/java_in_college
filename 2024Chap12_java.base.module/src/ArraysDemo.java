@@ -14,6 +14,15 @@ public class ArraysDemo {
 		List<String> strList = Arrays.asList(str);
 		System.out.println(strList);
 		
+		// 배열 복사 - static T[] copyOf()
+		String [] cpArr = Arrays.copyOf(str, 7);
+		System.out.println(Arrays.toString(cpArr));
+		
+		// 배열 복사 - Arrays.copyOfRange(복사하고자 하는 배열, from, to);
+		String[] cpArr2 = Arrays.copyOfRange(str, 0, str.length);
+		System.out.println(Arrays.toString(cpArr2));
+		
+		// ArrayList 요소 추가 
 		ArrayList<String> listStr = new ArrayList();
 		listStr.add("Faker");
 		listStr.add("Gumaysi");
@@ -36,7 +45,7 @@ public class ArraysDemo {
 		// binary search : 정렬을 한 후에 위치를 찾아줌, -가 나오면 못찾았다는 뜻
 		System.out.println("8 is at : " + Arrays.binarySearch(numArr, 45));
 		
-		// fill
+		// fill - 대용량을 어떤값으로 초기화 시킬때 사용
 		boolean[] prime = new boolean[15]; // 초기값을 안주면 false로 세팅된다. int형식이면 0으로 세팅
 		Arrays.fill(prime, false); // fill 기능이 없다면 for문 돌려야됨, int형식일 때 특정한 값으로 세팅하고 싶을 때 사용하면 좋다
 		System.out.println(Arrays.toString(prime));
@@ -52,6 +61,8 @@ public class ArraysDemo {
 		int[] odd = new int[10];
 		Arrays.setAll(odd, x -> x*2 + 1); // 집합의 조건제시법과 비슷함, in python: odd = [x for x in range(20)]
 		System.out.println(Arrays.toString(odd));
+		
+		
 		
 		
 	}

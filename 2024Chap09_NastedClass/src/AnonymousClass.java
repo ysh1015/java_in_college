@@ -8,6 +8,8 @@ public class AnonymousClass {
 		// Anonymous Class of Object
 		Tire anony_tire = new Tire() { // {}를 뒤에 붙혀서 익명 객체 생성 (부모 생성자를 호출)
 			
+			// 상속을 받지 않고 재정의 할 수 있는게 익명 클래스라고 한다
+			// Tire 클래스 재정의,익명함수는 혼자서 존재할 수 없다
 			String name = "HK";
 			
 			@Override
@@ -15,7 +17,7 @@ public class AnonymousClass {
 				System.out.println("I'm a child's a method this is overrided");
 			}
 			@Override
-			public void roll() {
+			public void roll() { // Tire클래스의 roll 객체를 익명 함수를 통해 재정의 
 				System.out.println("스토우 타이어가 굴러갑니다");
 			}
 		}; 
@@ -25,7 +27,7 @@ public class AnonymousClass {
 		
 		Car car = new Car();
 		car.run(anony_tire);
-		car.run(new Tire() {
+		car.run(new Tire() { // Tire 클래스에 
 			public void run() {
 				System.out.println("car anony");
 			}

@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ArraysDemo {
@@ -31,12 +33,17 @@ public class ArraysDemo {
 		listStr.add("Keria");
 		System.out.println("T1 : " + listStr);
 		
-		int [] numArr = {34, 12, 78, 30, 27, 89, 45};
-		int [] numArr2 = {34, 12, 78, 30, 27, 89, 44};
+		Integer [] numArr = {34, 12, 78, 30, 27, 89, 45};
+		Integer [] numArr2 = {34, 12, 78, 30, 27, 89, 44};
 		int [][] numArr3 = {{1,2,3},{4,5}};
 		int [][] numArr4 = {{1,2,3},{4,5}};
 		System.out.println("정렬 전 : " + Arrays.toString(numArr)); // toString을 쓰면 반복문 돌릴 필요 없이 리스트 형식으로 출력
-		Arrays.sort(numArr); // 정렬하는 메서드
+		
+		Arrays.sort(numArr); // 오름차순으로 정렬하는 메서드
+		Arrays.sort(numArr, Collections.reverseOrder()); // 내림차순으로 정렬하는 메서드
+		Arrays.sort(numArr, (a, b) -> b - a); // 람다식으로 내림차순 정렬
+
+		
 		System.out.println("정렬 후 : " + Arrays.toString(numArr));
 		System.out.println(Arrays.equals(numArr, numArr2)); // Arrays.equals() 함수는 내용적으로 똑같은지 비교하는 것
 		System.out.println(Arrays.deepEquals(numArr3, numArr4)); // 2차원 배열 이상일때는 deepEquals로 비교해야함

@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="AnimalImplement.Cat"/>
     <fullyQualifiedTypeName name="A.B"/>
     <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

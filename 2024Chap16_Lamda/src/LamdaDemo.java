@@ -66,8 +66,6 @@ public class LamdaDemo {
 	static void Calculator(int a, int b, MyFunction f) {
 		System.out.println(f.cal(a, b));
 	}
-	
-	
 }
 
 

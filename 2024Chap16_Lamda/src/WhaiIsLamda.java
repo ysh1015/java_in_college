@@ -54,6 +54,11 @@ public class WhaiIsLamda {
 	 *	MyFunction m = (a, b) -> Math.max(a, b);
 	 * 
 	 * 
+	 * ---- 함수형 인터페이스 구현 ----
+	 * 1. 직접 구현
+	 * 2. 익명 객체 생성
+	 * 3. 람다식
+	 * 4. 메서드 참조
 	 * 
 	 * 
 	 * 
